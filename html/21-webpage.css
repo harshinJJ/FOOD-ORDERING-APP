@@ -1,0 +1,152 @@
+body{
+    background-image: url('55.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* max-height: 100vh; */
+}
+.q{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbgcolr{
+    opacity: .8;
+    
+    background-color: #7f5939;
+    
+  }
+  .navtextcolr{
+    color: white;
+  }
+  .e-card {
+    margin: 118px auto;
+    background: transparent;
+    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
+    position: relative;
+    width: 340px;
+    height: 484px;
+    left: 20%;
+    top: 55%;
+    border-radius: 16px;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .infotop {
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+  .wave {
+    position: absolute;
+    width: 540px;
+    height: 700px;
+    opacity: 0.6;
+    left: 200px;
+    top: 50%;
+    margin-left: -50%;
+    margin-top: -70%;
+    background: linear-gradient(744deg,#9c6f44,#6f4827 60%,#eac29a);
+  }
+  .wave:nth-child(2),
+  .wave:nth-child(3) {
+    top: 210px;
+  }
+  
+  .playing .wave {
+    border-radius: 40%;
+    animation: wave 3000ms infinite linear;
+  }
+  
+  .wave {
+    border-radius: 40%;
+    animation: wave 55s infinite linear;
+  }
+  
+  .playing .wave:nth-child(2) {
+    animation-duration: 4000ms;
+  }
+  
+  .wave:nth-child(2) {
+    animation-duration: 50s;
+  }
+  
+  .playing .wave:nth-child(3) {
+    animation-duration: 5000ms;
+  }
+  
+  .wave:nth-child(3) {
+    animation-duration: 45s;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  button {
+    height: 3em;
+    width: 8em;
+    border: none;
+    border-radius: .2em;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    background: white;
+    font-size: 17px;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 500;
+    opacity: ;
+    color: black;
+   }
+   
+   button:hover {
+    animation: shake3856 0.3s linear infinite both;
+   }
+   
+   @keyframes shake3856 {
+    0% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   
+    20% {
+     -webkit-transform: translate(-2px, 2px);
+     transform: translate(-2px, 2px);
+    }
+   
+    40% {
+     -webkit-transform: translate(-2px, -2px);
+     transform: translate(-2px, -2px);
+    }
+   
+    60% {
+     -webkit-transform: translate(2px, 2px);
+     transform: translate(2px, 2px);
+    }
+   
+    80% {
+     -webkit-transform: translate(2px, -2px);
+     transform: translate(2px, -2px);
+    }
+   
+    100% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   }
+   .but{
+    position: relative;
+    margin-top: 25px;
+    top: -10px;
+   }
